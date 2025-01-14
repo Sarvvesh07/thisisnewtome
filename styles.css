@@ -1,0 +1,48 @@
+/* Apply a soft pastel color palette for a cat aesthetic */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8D7A1;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Style for the container */
+.container {
+    background-color: #FFF0F5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image container to allow text to overlay */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the cat image */
+.cat-image {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #FF6B6B;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for a cute effect */
+}
